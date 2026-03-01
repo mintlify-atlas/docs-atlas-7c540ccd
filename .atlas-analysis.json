@@ -1,0 +1,140 @@
+{
+  "projectType": "framework",
+  "projectName": "re-frame",
+  "projectDescription": "A ClojureScript framework for building reactive user interfaces with React",
+  "theme": "palm",
+  "primaryColor": "#5B8FCC",
+  "lightColor": "#729AD1",
+  "darkColor": "#283C67",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/data-loop",
+              "concepts/application-state",
+              "concepts/events",
+              "concepts/subscriptions",
+              "concepts/effects",
+              "concepts/coeffects"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/event-handlers",
+              "guides/subscription-handlers",
+              "guides/interceptors",
+              "guides/flows",
+              "guides/effectful-handlers",
+              "guides/app-structure",
+              "guides/loading-data",
+              "guides/server-communication",
+              "guides/external-data"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/flow-mechanics",
+              "advanced/reusable-components",
+              "advanced/testing",
+              "advanced/debugging",
+              "advanced/performance",
+              "advanced/stateful-js-components"
+            ]
+          },
+          {
+            "group": "Mental Models",
+            "pages": [
+              "mental-models/data-oriented-design",
+              "mental-models/dynamics",
+              "mental-models/interconnections"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview",
+              "api/builtin-effects"
+            ]
+          },
+          {
+            "group": "Core API",
+            "pages": [
+              "api/dispatch",
+              "api/events",
+              "api/subscriptions",
+              "api/effects",
+              "api/coeffects",
+              "api/interceptors"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Additional Resources",
+            "pages": [
+              "faq",
+              "external-resources",
+              "releases"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Event-driven architecture with dispatch and subscribe",
+    "Reactive signal graph for derived data",
+    "Interceptor system for composable event handling",
+    "Effects and coeffects for managing side effects",
+    "Unidirectional data flow",
+    "Built on Reagent and React",
+    "Data-oriented functional design",
+    "Hot reload support with development tooling"
+  ],
+  "publicApiSurface": [
+    "dispatch",
+    "dispatch-sync",
+    "reg-event-db",
+    "reg-event-fx",
+    "reg-event-ctx",
+    "subscribe",
+    "reg-sub",
+    "reg-sub-raw",
+    "reg-fx",
+    "reg-cofx",
+    "inject-cofx",
+    "path",
+    "after",
+    "enrich",
+    "trim-v",
+    "debug",
+    "on-changes",
+    "reg-global-interceptor",
+    "clear-global-interceptor",
+    "make-restore-fn",
+    "purge-event-queue",
+    "clear-subscription-cache!"
+  ]
+}
